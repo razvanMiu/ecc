@@ -1,0 +1,41 @@
+*, body {
+  margin: 0;
+  padding: 0;
+}
+
+.inputContainer {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 20px;
+  background-image: url("../images/background/background.png");
+}
+
+.inputContainer button {
+  display: block;
+  border: none;
+  border-radius: 10px;
+  background-color: #9F3548;
+  color: white;
+  padding: 10px 50px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.inputContainer label {
+  display: block;
+}
+
+.inputContainer input {
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: solid 1px black;
+}
+
+.inputContainer h1 {
+  margin-bottom: 5px;
+}
+
+.inputForm {
+  margin-bottom: 40px;
+}

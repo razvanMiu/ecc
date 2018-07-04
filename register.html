@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./assets/css/register.css">
+  </head>
+  <body>
+    <div class="inputContainer">
+      <div class="inputForm">
+        <h1>Login to your account</h1>
+        <form class="loginForm" action="register.php" method="post">
+
+          <label for="username">Username</label>
+          <input type="text" name="username" placeholder="Username">
+
+          <label for="password">Password</label>
+          <input type="password" name="password" placeholder="Password">
+
+          <button type="submit" name="loginButton">Log in</button>
+        </form>
+      </div>
+
+      <div class="inputForm">
+        <h1>Create account</h1>
+        <form class="loginForm" action="register.php" method="post">
+
+          <label for="usernameRegister">Username</label>
+          <input type="text" name="usernameRegister " placeholder="razvan.miu">
+
+          <label for="passwordRegister1">Password</label>
+          <input type="password" name="passwordRegister" placeholder="1234">
+
+          <label for="passwordRegister2">Confirm password</label>
+          <input type="password" name="passwordRegister2" placeholder="1234">
+
+          <label for="name">Name</label>
+          <input type="text" name="name " placeholder="Razvan">
+
+          <label for="email">Email</label>
+          <input type="email" name="email " placeholder="razvan.miu@upptu.com">
+
+          <label for="gender">Sex</label>
+          <input type="radio" name="gender" value="M" checked> M
+          <input type="radio" name="gender" value="F"> F
+
+          <button type="submit" name="registerButton">Sign up</button>
+        </form>
+      </div>
+      <div class="registerContainer">
+
+      </div>
+    </div>
+  </body>
+</html>
